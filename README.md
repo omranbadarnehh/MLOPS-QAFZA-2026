@@ -116,10 +116,6 @@ about learning the tooling as it was about the database itself.
   duplicates (same `review_id`, different `order_id`) confirmed this wasn't
   accidental — the table was rebuilt with a composite key on `(review_id,
   order_id)` to keep all the real rows instead of discarding data.
-- **Git edge case**: hit an "unknown revision" error trying to undo my very first
-  commit with `git reset HEAD~1`, since there's no commit before the first one.
-  Learned `git commit --amend` for fixing a commit message without needing to
-  reset anything.
 
 ## Notes
 
