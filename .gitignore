@@ -1,0 +1,19 @@
+# Data files (downloaded from Kaggle, not tracked in git)
+*.csv
+archive/
+data/
+
+# Environment / secrets
+.env
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# VS Code workspace settings (optional — remove this line if you want to track it)
+.vscode/
+
+# Python (in case you add notebooks/scripts later)
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

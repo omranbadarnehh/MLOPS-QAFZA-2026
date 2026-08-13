@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres_olist
+    environment:
+      POSTGRES_PASSWORD: OMRAN123
+      POSTGRES_DB: OLIST
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+    driver: local
